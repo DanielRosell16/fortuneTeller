@@ -12,7 +12,7 @@ function getRandom(min, max) {
 
 console.log(getRandom(1, 12))
 
-let day = getRandom(1, 12)
+let day = getRandom(1, 30)
 
 function getMonthName(day) {
     let name 
