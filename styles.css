@@ -1,0 +1,56 @@
+header {
+    background-image: url('gallery/fortuneteller.jpeg');
+    height: 350px;
+    color: white;
+}
+
+header h1, h2 {
+    padding: 15px;
+}
+
+/* main stuff here */
+
+main h4 {
+    color: darkcyan;
+    padding-left: 15px;
+}
+
+
+main h2 {
+    color: darkcyan;
+}
+
+main h3 {
+    color: darkcyan;
+    padding-left: 15px;
+}
+
+/* ul stuff here */
+
+main ul {
+    list-style: none;
+    color: #333;
+}
+
+
+main ul li:before {
+
+content: '✓';
+
+}
+
+ul li {
+    padding: 5px;
+}
+
+#fortune {
+    font-size: 25px;
+    color: darkred;
+    padding: 0 0 20px 15px;
+}
+
+footer {
+    background-color: rgb(143, 143, 143);
+    text-align: center;
+    padding: 10px;
+}
